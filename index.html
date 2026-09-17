@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block Blast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="game">
+        <div class="top">
+            <div>
+                <h1>🧱 Block Blast</h1>
+                <p>Bloklarni joylashtir va qatorlarni yo‘q qil!</p>
+            </div>
+
+            <div class="score-box">
+                <span>REKORD</span>
+                <strong id="best">0</strong>
+            </div>
+        </div>
+
+        <div class="score">
+            <span>OCHKO</span>
+            <strong id="score">0</strong>
+        </div>
+
+        <div id="board" class="board"></div>
+
+        <div id="pieces" class="pieces"></div>
+
+        <button id="restart" class="restart">🔄 Qaytadan boshlash</button>
+    </div>
+<div id="gameOver" class="game-over hidden">
+    <div class="game-over-box">
+
+        <div class="big-icon">💥</div>
+
+        <h2>O‘yin tugadi!</h2>
+
+        <p class="invite">
+            😄 Yana o‘ynaysanmi?
+        </p>
+
+        <p class="ozodbek">
+            Ozodbek taklif qilyapti! 🎮
+        </p>
+
+        <p>Sizning ochkoingiz:</p>
+
+        <strong id="finalScore">0</strong>
+
+        <button id="playAgain">
+            🔥 Ha, yana o‘ynayman!
+        </button>
+
+        <button id="closeGame" class="close-button">
+            ❌ Yo‘q
+        </button>
+
+    </div>
+</div>
+  
+    <script src="script.js"></script>
+</body>
+</html>
